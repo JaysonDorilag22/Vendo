@@ -1,10 +1,5 @@
 # Vendo 🛒
-
-Vendo is an e-commerce web application built with the **MERN stack**.  
-It allows users to sign up, browse products, add items to their cart, and place orders.  
-Admins can manage products, users, and orders through a simple dashboard.  
-
----
+Vendo is an e-commerce web application built with the MERN stack. It provides a smooth online shopping experience where users can browse products, add them to their cart, and place orders. Admins can manage products, users, and orders through a simple dashboard.
 
 ## Features
 - User authentication and authorization (JWT)
@@ -14,48 +9,51 @@ Admins can manage products, users, and orders through a simple dashboard.
 - Shopping cart and checkout flow
 - Order management (User and Admin)
 - Search and filter products
-- Admin dashboard
-
----
+- Admin dashboard with analytics
 
 ## Tech Stack
-- **Frontend:** React (Vite), Tailwind CSS  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB (Atlas)  
-- **Authentication:** JWT + bcrypt  
-- **Deployment:** Vercel (frontend), Render/Heroku (backend)  
-
----
+- Frontend: React (Vite), Tailwind CSS
+- Backend: Node.js, Express.js
+- Database: MongoDB (Atlas)
+- Authentication: JWT + bcrypt
+- Deployment: Vercel (frontend), Render/Heroku (backend)
 
 ## Installation
-
-1. Clone the repository  
+1. Clone the repository
    ```bash
    git clone https://github.com/yourusername/vendo.git
    cd vendo
+Install dependencies
 
-2. Install dependencies
-  # Frontend
-  cd client
-  npm install
+bash
+Copy code
+# Frontend
+cd client
+npm install
 
-  # Backend
-  cd ../server
-  npm install
+# Backend
+cd ../server
+npm install
+Create a .env file in the server folder with:
 
-3. Create a .env file in the server folder with:
-   MONGO_URI=your_mongodb_uri
-   JWT_SECRET=your_jwt_secret
+env
+Copy code
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+Run the development servers
 
-4. Run the development servers
-   # Backend
-    cd server
-   npm run dev
+bash
+Copy code
+# Backend
+cd server
+npm run dev
 
-   # Frontend
-    cd client
-    npm run dev
-
+# Frontend
+cd client
+npm run dev
+Folder Structure
+csharp
+Copy code
 vendo/
 │
 ├── client/          # React (Vite) + Tailwind frontend
@@ -68,6 +66,3 @@ vendo/
 │   └── controllers/ # Business logic
 │
 └── README.md
-
-  
-
