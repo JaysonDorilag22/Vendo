@@ -19,50 +19,42 @@ Vendo is an e-commerce web application built with the MERN stack. It provides a 
 - Deployment: Vercel (frontend), Render/Heroku (backend)
 
 ## Installation
-1. Clone the repository
-   ```bash
-   git clone https://github.com/yourusername/vendo.git
-   cd vendo
-Install dependencies
+1. Clone the repository  
+   git clone https://github.com/yourusername/vendo.git  
+   cd vendo  
 
-bash
-Copy code
-# Frontend
-cd client
-npm install
+2. Install dependencies  
+   # Frontend  
+   cd client  
+   npm install  
 
-# Backend
-cd ../server
-npm install
-Create a .env file in the server folder with:
+   # Backend  
+   cd ../server  
+   npm install  
 
-env
-Copy code
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-Run the development servers
+3. Create a `.env` file in the server folder with:  
+   MONGO_URI=your_mongodb_uri  
+   JWT_SECRET=your_jwt_secret  
 
-bash
-Copy code
-# Backend
-cd server
-npm run dev
+4. Run the development servers  
+   # Backend  
+   cd server  
+   npm run dev  
 
-# Frontend
-cd client
-npm run dev
-Folder Structure
-csharp
-Copy code
-vendo/
-│
-├── client/          # React (Vite) + Tailwind frontend
-│   ├── public/
-│   └── src/
-│
-├── server/          # Express backend
-│   ├── models/      # Mongoose schemas
-│   ├── routes/      # API routes
-│   └── controllers/ # Business logic
-│
-└── README.md
+   # Frontend  
+   cd client  
+   npm run dev  
+
+## Folder Structure
+vendo/  
+│  
+├── client/          # React (Vite) + Tailwind frontend  
+│   ├── public/  
+│   └── src/  
+│  
+├── server/          # Express backend  
+│   ├── models/      # Mongoose schemas  
+│   ├── routes/      # API routes  
+│   └── controllers/ # Business logic  
+│  
+└── README.md  
